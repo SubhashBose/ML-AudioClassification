@@ -132,3 +132,7 @@ dmypy.json
 BootCamp Project.ipynb
 genres.tar.gz
 git_push.sh
+start_server.sh
+classify_cmdline.old.py
+www/*.wav
+www/*.mp3
