@@ -1,9 +1,6 @@
 <p align="center">
-
-Working example of Web App
-
-<img src="https://i.imgur.com/xUvePn0.gif" width=350px>
-
+<img src="https://i.imgur.com/xUvePn0.gif" width=350px><br/>
+Working example of Web App<br/>
   <br>
 <p>
 
