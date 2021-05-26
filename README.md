@@ -1,9 +1,11 @@
-<center>
+<p align="center">
 
-#### Working example of Web App
+Working example of Web App
 
 <img src="https://i.imgur.com/xUvePn0.gif" width=350px>
-</center>
+
+  <br>
+<p>
 
 Music Genre classification Machine learning project 
 
