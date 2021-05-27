@@ -7,7 +7,10 @@ URL: <a href="https://music-classifier.bose.dev/">https://music-classifier.bose.
 
 # Machine learning based classification for Music Genres
 
-Description goes here..
+A lot of music would be hard to classify into one single genre. Jazz fusion combines jazz harmonies with rock music, rap/hip hop artists often sample music from very different genres, and different sorts of crossover music have gained popularity (e.g. reggae rock, disco pop, country rap)
+
+Musical genres are loosely defined, but an automatic classifier would need to be based on assigning a finite, low number of labels for each input piece. So, we aim to create a music genre classifier that assigns percentages of genre influences for a given song.
+
 
 # Python Notebooks
 
@@ -15,10 +18,10 @@ Description goes here..
 
 [02.Model Building.ipynb](https://colab.research.google.com/github/SubhashBose/ML-AudioClassification/blob/main/02.Model%20Building.ipynb) - Here we load the saved features and explore all those features first. Then we start building various classifying models and compare their performance based on various metrics we obtained. After finalizing an optimized model, we dump the model into a file.
 
-[03.Classify Input.ipynb](https://colab.research.google.com/github/SubhashBose/ML-AudioClassification/blob/main/03.Classify%20Input.ipynb) - Here we outline the steps for classifying an input audio. We extract the features from audio and apply the classifier model which we saved in the previous step. The classifier assigns percentage probabilities of genres. However, for Web APP, we use the `classify_cmdline.py` script which has the same steps outlined in this notebook.
+[03.Classify Input.ipynb](https://colab.research.google.com/github/SubhashBose/ML-AudioClassification/blob/main/03.Classify%20Input.ipynb) - Here we outline the steps for classifying an input audio. We extract the features from audio and apply the classifier model which we saved in the previous step. The classifier assigns percentage probabilities of genres. However, for the Web APP, classification is handled by the `classify_cmdline.py` script which has the same steps outlined in this notebook.
 
 # Setting up the Web APP
-The Web APP needs to be run from a PHP-enabled web server with webroot set to `www` directory. Make sure `www/exec.sh` has executable permission, othehwise make so by `chmod +x www/exec.sh`.
+The Web APP needs to be run from a PHP-enabled web server with webroot set to `www` directory. Make sure `www/exec.sh` has executable permission, otherwise make set it by `chmod +x www/exec.sh`.
 
 For development environment, you may use PHP's built-in web server serving from `www` directory, like this:
 
