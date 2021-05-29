@@ -176,6 +176,13 @@ li {
 }
 
 </style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1WLXDZ0477');
+</script>
   </head>
   <body>
   <div id="container">
@@ -208,5 +215,6 @@ li {
   	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
   	<script src="app.js"></script>
   </div>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WLXDZ0477"></script>
   </body>
 </html>

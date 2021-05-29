@@ -21,7 +21,7 @@ Musical genres are loosely defined, but an automatic classifier would need to be
 [03.Classify Input.ipynb](https://colab.research.google.com/github/SubhashBose/ML-AudioClassification/blob/main/03.Classify%20Input.ipynb) - Here we outline the steps for classifying an input audio. We extract the features from audio and apply the classifier model which we saved in the previous step. The classifier assigns percentage probabilities of genres. However, for the Web APP, classification is handled by the `classify_cmdline.py` script which has the same steps outlined in this notebook.
 
 # Setting up the Web APP
-The Web APP needs to be run from a PHP-enabled web server with webroot set to `www` directory. Make sure `www/exec.sh` has executable permission, otherwise make set it by `chmod +x www/exec.sh`.
+The Web APP needs to be run from a PHP-enabled web server with webroot set to `www` directory. Make sure `www/exec.sh` has executable permission, otherwise set it by `chmod +x www/exec.sh`.
 
 For development environment, you may use PHP's built-in web server serving from `www` directory, like this:
 
@@ -35,6 +35,6 @@ Now you have the app running at http://localhost:8000/
 ### Requirements
 1. Python 3 is needed. 
 1. Required Python libraries are Librosa and Sklearn, and the common set of Python libraries - Pandas, Numpy, Matplotlib. These dependencies can be installed by `pip install -r requirements.txt`
-1. PHP - any version above 5.x should work, but I tested on PHP v7 only. 
+1. PHP - any version 5.x or above should work, but I tested on PHP 7 only. 
 1. For the production environment, Apache + PHP is recommended. Note that PHP's built-in web-server is only single-threaded.
 1. For serving on the web, if a domain name is used associated with this app, make sure HTTPS is enabled, otherwise the microphone will not work. This restriction is placed by web browsers as a security mesure when using WebRTC protocol for microphone input.
