@@ -35,6 +35,6 @@ Now you have the app running at http://localhost:8000/
 ### Requirements
 1. Python 3 is needed. 
 1. Required Python libraries are Librosa and Sklearn, and the common set of Python libraries - Pandas, Numpy, Matplotlib. These dependencies can be installed by `pip install -r requirements.txt`
-1. PHP - any version 5.x or above should work, but I tested on PHP 7 only. 
+1. PHP - any version above 5.x should work, but I tested on PHP 7 only. 
 1. For the production environment, Apache + PHP is recommended. Note that PHP's built-in web-server is only single-threaded.
 1. For serving on the web, if a domain name is used associated with this app, make sure HTTPS is enabled, otherwise the microphone will not work. This restriction is placed by web browsers as a security mesure when using WebRTC protocol for microphone input.
