@@ -1,7 +1,7 @@
 <p align="center">
-<img src="https://i.imgur.com/xUvePn0.gif" width=350px><br/>
+<img src="media/webapp_demo.gif" width=350px><br/>
 Working example of Web App<br/>
-URL: <a href="https://music-classifier.bose.dev/">https://music-classifier.bose.dev/</a><br/>
+Temporary URL: <a href="https://music-classifier.bose.dev/">https://music-classifier.bose.dev/</a><br/>
   <br>
 <p>
 
@@ -37,4 +37,4 @@ Now you have the app running at http://localhost:8000/
 1. Required Python libraries are Librosa and Sklearn, and the common set of Python libraries - Pandas, Numpy, Matplotlib. These dependencies can be installed by `pip install -r requirements.txt`
 1. PHP - any version above 5.x should work, but I tested on PHP 7 only. 
 1. For the production environment, Apache + PHP is recommended. Note that PHP's built-in web-server is only single-threaded.
-1. For serving on the web, if a domain name is used associated with this app, make sure HTTPS is enabled, otherwise the microphone will not work. This restriction is placed by web browsers as a security mesure when using WebRTC protocol for microphone input.
+1. For serving on the web, if a domain name is associated with this app, make sure HTTPS is enabled, otherwise the microphone will not work. This restriction is placed by web browsers as a security mesure when using WebRTC protocol for microphone input.

@@ -136,3 +136,5 @@ start_server.sh
 classify_cmdline.old.py
 www/*.wav
 www/*.mp3
+PresentationVideo.mp4
+Slides.gslides
